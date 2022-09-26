@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ekaterina Nekrylova](https://up.htmlacademy.ru/htmlcss/35/user/2141363).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
 
 ---
 
