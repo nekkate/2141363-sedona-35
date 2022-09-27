@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <title>Sedona - лучший курорт для Вашего отдыха!</title>
+    </head>
+    <body>
+        <header class="page_header">
+            <h1 class="visually-hidden">Курорт Sedona</h1>
+            <nav class="navigation">
+                <h2 class="visually_hidden">Навигация на странице</h2>
+                <a class="navigation_logo" href="#">
+                    <img class="page-header-logo" alt="Логотип Sedona." src="#">
+                  </a>
+                <ul class="navigation-list">
+                <li class="navigation_item">
+                    <a class="navigation-link navigation-link-сurrent" href="glavnoe.html">Главная</a>
+                </li>
+                <li class="navigation_item">
+                    <a class="navigation-link" href="about_hotels">О седоне</a>
+                </li>
+                <li class="navigation_item">
+                    <a class="navigation-link" href="about_hotels">Гостиницы</a>
+                </li>
+                </ul>
+            </nav>
+            <div class="navigation-user">
+                <a href="#">
+                    <span class="visually-hidden">Поиск</span>
+                </a>
+                <a href="#">
+                    <span class="visually-hidden">Избранное</span>
+                </a>
+                <a href="#">
+                    <span class="visually-hidden">Хочу сюда</span>
+                </a>
+            </div>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+        </header>
+        <main>
+            <section class="intro">
+                <!-- или тут надо вставлять h1 <h1 class="visually-hidden">Курорт Sedona</h1> -->
+                <img src="#" alt="картиночка велком">
+                <img src="#" alt="что-то про гартензию))">
+                <img src="#" alt="цитата красивая">
+            </section>
 
-  </body>
+            <section class="advantages">
+                <h2 class="advantages_title">Седона-небольшой городок в аризоне, заслуживающий большего!</h2>
+                <p class="advantages_text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+
+                <div class="advantages_first">
+                    <h3 class="advantages_first_city">Настоящий городок</h3>
+                    <p class="advantages_first_item">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                </div>
+                <img src="#" alt="дерево и беседка">
+
+                <ul class="advantages_second">
+                    <li class="advantages_second_list">
+                    <h3 class="advantages_second_item">Небольшая площадь</h3>
+                    <p class="">Все достопримечательности находятся очень близко</p>
+                    </li>
+
+                    <li class="advantages_second_list">
+                    <h3 class="advantages_second_item">Красивая дорога</h3>
+                    <p class="">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                    </li>
+
+                    <li class="advantages_second_list">
+                    <h3 class="advantages_second_item">Мало туристов</h3>
+                    <p class="">Большинство едет в Гранд Каньон и толпится там</p>
+                    </li>
+                </ul>
+
+                <div class="advantages_third">
+                    <img src="#" alt="какой-то гранд-каньон">
+                    <h3 class="advantages_third_list">Там есть мост дьявола</h3>
+                    <p class="advantages_third_item">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                </div>
+
+                <ul class="advantages_fourth">
+                    <li class="advantages_fourth_list">
+                    <h3 class="advantages_fourth_item">Жильё</h3>
+                    <p class="">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                    </li>
+                    <li class="advantages_fourth_list">
+                    <h3 class="advantages_fourth_item">Еда</h3>
+                    <p class="">Всегда заказывайте
+                        топовый фирменный бургер, вы не разочаруетесь!</p>
+                    </li>
+                    <li class="advantages_fourth_list">
+                    <h3 class="advantages_fourth_item">Мало туристов</h3>
+                    <p class="">Не только китайского, но и настоящего местного производства!</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="intrested">
+                <h2 class="intrested_question">Заинтересовались?</h2>
+                <p class="intrested_dates">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+                <a class="button button-hotels" href="#">Поиск гостиниц в седоне</a>
+            </section>
+
+
+        </main>
+
+        <footer class="page_footer">
+
+            <section class="subsribe">
+                <h2 class="subsribe_a">Подпишитесь на рассылку</h2>
+                <p class="subsribe_b">Только полезная информация и никакого спама, честное бойскаутское!</p>
+                <form class="subsribe_form" action="https://echo.htmlacademy.ru/" method="POST">
+                 <input class="subs" type="text" name="email" placeholder="Ваш email">
+                <button class="button" type="submit">
+                    Подписаться
+                </button>
+                </form>
+            </section>
+
+            <h2 class="visually-hidden">Подвал страницы</h2>
+
+            <section class="footer_social">
+                <h3 class="footer_social_subtitle">Социальные сети</h3>
+
+                <ul class="footer_social_list">
+                    <li class="footer_social_item">
+                        <a class="button" href="#">
+                            <span class="visually_hidden">ВК</span>
+                        </a>
+                    </li>
+                    <li class="footer_social_item">
+                        <a class="button" href="#">
+                            <span class="visually_hidden">Телеграмм</span>
+                        </a>
+                    </li>
+                    <li class="footer_social_item">
+                        <a class="button" href="#">
+                            <span class="visually_hidden">Ютуб</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <section class="footer_address"> <!-- почему тут я не могу использовать address? ни в секшен, ни как отдельный тег -->
+                <h3 class="footer_address_subtitle">Контакты</h3>
+                  <a class="footer_phone" href="tel:88128121212">+7 (812) 812-12-12</a>
+            </section>
+
+
+            <section class="footer_logo">
+                <h3 class="footer_logo_subtitle">Контакты</h3>
+                <a class="html_link" href="https://htmlacademy.ru/">
+                    <img class="html_logo_img" src="#" alt="логотип хтмл">
+                    <p class="visually-hidden">Создатели</p>
+                </a>
+            </section>
+        </footer>
+
+    </body>
 </html>
