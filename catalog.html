@@ -12,9 +12,10 @@
         <h2 class="visually-hidden">Верхняя навигация на странице.</h2>
         <a class="header-navigation-link" href="#">
           <img
+            src="#"
             class="header-navigation-logo"
             alt="Логотип курорта Sedona."
-            weight="140"
+            width="140"
             height="70"
           />
         </a>
@@ -42,7 +43,6 @@
         </a>
       </div>
     </header>
-  </body>
   <main>
     <section class="catalog-filter">
       <h1 class="page-catalog">Гостиницы Седоны</h1>
@@ -52,67 +52,103 @@
         </li>
       </ul>
       <h2 class="visually-hiden">Фильтры товаров</h2>
-      <form class="catalof-filter-form" action="https://echo.htmlacademy.ru/" method="get">
+      <form
+        class="catalof-filter-form"
+        action="https://echo.htmlacademy.ru/"
+        method="get"
+      >
         <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">
-            Инфраструктура
-          </legend>
+          <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label>
-                <input class="catalog-filter-input" type="checkbox" checked name="swimming pool" value="1">
+                <input
+                  class="catalog-filter-input"
+                  type="checkbox"
+                  checked
+                  name="swimming pool"
+                  value="1"
+                />
                 Бассейн
               </label>
             </li>
             <li class="catalog-filter-item">
               <label>
-                <input class="catalog-filter-input" type="checkbox" name="parking" value="1">
+                <input
+                  class="catalog-filter-input"
+                  type="checkbox"
+                  name="parking"
+                  value="1"
+                />
                 Парковка
               </label>
             </li>
             <li class="catalog-filter-item">
               <label>
-                <input class="catalog-filter-input" type="checkbox" name="wifi" value="1">
+                <input
+                  class="catalog-filter-input"
+                  type="checkbox"
+                  name="wifi"
+                  value="1"
+                />
                 Wi-fi
               </label>
             </li>
           </ul>
         </fieldset>
         <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">
-            Инфраструктура
-          </legend>
+          <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label>
-                <input class="control_input" name="type_housing" type="radio" checked value="hotel">
+                <input
+                  class="control_input"
+                  name="type_housing"
+                  type="radio"
+                  checked
+                  value="hotel"
+                />
                 Гостиница
               </label>
             </li>
             <li class="catalog-filter-item">
               <label>
-                <input class="catalog-filter-input" type="radio" name="type_housing" value="motel">
+                <input
+                  class="catalog-filter-input"
+                  type="radio"
+                  name="type_housing"
+                  value="motel"
+                />
                 Мотель
               </label>
             </li>
             <li class="catalog-filter-item">
               <label>
-                <input class="catalog-filter-input" type="radio" name="type_housing" value="apartments">
+                <input
+                  class="catalog-filter-input"
+                  type="radio"
+                  name="type_housing"
+                  value="apartments"
+                />
                 Апартаменты
               </label>
             </li>
           </ul>
         </fieldset>
-       <div class="catalog-filter-controls">
-          <button class="catalog-filter-submit button" type="submit">Применить</button>
-          <button class="catalog-filter-reset button" type="submit">Сброс</button>
-       </div>
+        <div class="catalog-filter-controls">
+          <button class="catalog-filter-submit button" type="submit">
+            Применить
+          </button>
+          <button class="catalog-filter-reset button" type="submit">
+            Сброс
+          </button>
+        </div>
       </form>
     </section>
     <section class="search-catalog">
       <h2 class="visually-hidden">Сортировка.</h2>
       <span class="search-catalog-result">Найдено гостиниц: 38</span>
-      <select class="search-catalog-" area-label="Сортировка">
+      <select class="search-catalog-" aria-label="sorting">
         <option value="popular">Сначала дешёвые</option>
         <option value="cheap">Сначала дорогие</option>
         <option value="expensive">Сначала популярные</option>
@@ -215,7 +251,7 @@
           </li>
         </ul>
       </section>
-      <sectionc class="pagitation">
+      <section class="pagitation">
         <ul class="pagination-list">
           <li class="pagination-item">
             <a class="pagination-link pagination-link-current" href="#">1</a>
@@ -236,7 +272,7 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
-      </sectionc>
+      </section>
     </section>
   </main>
   <footer class="page-footer">
@@ -273,4 +309,5 @@
       <span class="visually-hidden">Логотип ХТМЛ-академии.</span>
     </a>
   </footer>
+</body>
 </html>
