@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("wof2");
+  src: url("../fonts/ptsans-400.woff2") format("wof2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("wof2");
+  src: url("../fonts/ptsans-700.woff2") format("wof2");
   font-display: swap;
 }
 
@@ -74,13 +74,13 @@ body {
   text-align: center;
 }
 
-.navigation-user > a {
+.navigation-user-links {
   text-decoration: none;
   color: #000000;
   text-align: center;
 }
 
-.navigation-user > a:nth-child(3) {
+.navigation-user-link {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -91,7 +91,7 @@ body {
 }
 
 .intro {
-  background-image: url("images/index/background-intro.jpg");
+  background-image: url("../images/index/background-intro.jpg");
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +100,6 @@ body {
 
 .advantages-content {
   text-align: center;
-  padding: 69px 274px 90px 275px;
 }
 
 .advantages-title {
@@ -209,7 +208,7 @@ body {
 }
 
 .subsribe {
-  background-image: url("images/index/background-subscribe.jpg");
+  background-image: url("../images/index/background-subscribe.jpg");
   background-color: #ff6347;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,7 +255,7 @@ body {
 
 .catalog-filter {
   padding: 35px 70px 70px 70px;
-  background-image: url("images/catalog/background-catalog.jpg");
+  background-image: url("../images/catalog/background-catalog.jpg");
   background-repeat: no-repeat;
   background-color: #000000;
   background-size: cover;
@@ -341,6 +340,9 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+}
+
+.product-card-link {
   text-decoration: none;
   color: #000000;
 }
