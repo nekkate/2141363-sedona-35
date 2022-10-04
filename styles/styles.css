@@ -40,7 +40,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-family: "PT Sans", sans-serif, "Arial";
   width: 100%;
 }
@@ -152,7 +152,7 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
- /*ты показал как гридом это делать, но я не шарю как это и по ютубу не разобралась, поэтому без всего */
+  /*ты показал как гридом это делать, но я не шарю как это и по ютубу не разобралась, поэтому без всего */
 }
 
 .advantages-item {
@@ -171,7 +171,6 @@ body {
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .interested {
@@ -261,7 +260,7 @@ body {
   background-repeat: no-repeat;
   background-color: #000000;
   background-size: cover;
-  color:#ffffff;
+  color: #ffffff;
   font-size: 18px;
   line-height: 23px;
 }
@@ -303,7 +302,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .catalog-filter-reset {
   font-size: 16px;
   line-height: 20px;
@@ -335,20 +333,17 @@ body {
   list-style-type: none;
 }
 
-
 .product-card-list {
   list-style-type: none;
 }
 
 .product-card-title {
-font-size: 24px;
-line-height: 28px;
-font-weight: 700;
-text-decoration: none;
-color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
 }
-
-
 
 .product-card-sub {
   font-size: 16px;
@@ -367,7 +362,7 @@ color: #000000;
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .product-card-record {
@@ -376,8 +371,7 @@ color: #000000;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
-  background-color: #F2F2F2;
-
+  background-color: #f2f2f2;
 }
 
 .pagination {
@@ -392,20 +386,19 @@ color: #000000;
 
 .pagination-link {
   text-decoration: none;
-background-color: #82B3D3;
-color: #ffffff;
+  background-color: #82b3d3;
+  color: #ffffff;
 }
 
 .pagination-link-current {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: #000000;
 }
 
 .subsribe-catalog {
-    color: #000000;
-    text-align: center;
+  color: #000000;
+  text-align: center;
 }
-
 
 /*font-size: 0px;
 line-height: 0px;
