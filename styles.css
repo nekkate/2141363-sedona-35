@@ -1,0 +1,431 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format("wof2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format("wof2");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif, "Arial";
+  width: 100%;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list-item {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.navigation-list-link {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+}
+
+.navigation-list-link-сurrent {
+  text-decoration: underline;
+  color: #000000;
+  text-align: center;
+}
+
+.navigation-user > a {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+}
+
+.navigation-user > a:nth-child(3) {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: rgba(117, 97, 87, 1);
+  color: #ffffff;
+  text-align: center;
+}
+
+.intro {
+  background-image: url("images/index/background-intro.jpg");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 51px 371px 82px 371px;
+}
+
+.advantages-content {
+  text-align: center;
+  padding: 69px 274px 90 275px;
+}
+
+.advantages-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 62px 290px 25px 290px;
+}
+
+.advantages-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 25px 274px 90px 275px;
+}
+
+.advantages-card {
+  display: flex;
+}
+
+.advantages-card-content {
+  background-color: #82b3d3;
+  color: #ffffff;
+  width: 33.33%;
+  margin: 0 0 0 0;
+  padding: 92px 85px 11px 85px;
+}
+
+.advantages-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 62px 0;
+}
+
+.advantages-card-text {
+  text-align: center;
+  margin: 0;
+}
+
+.advantages-card-img {
+  background-color: #000000;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ /*ты показал как гридом это делать, но я не шарю как это и по ютубу не разобралась, поэтому без всего */
+}
+
+.advantages-item {
+  background-color: rgba(131, 179, 211, 0.2);
+  text-align: center;
+  color: #000000;
+}
+
+.advantages-item-mod {
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.interested {
+  line-height: 36px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 96px 304px 96px 304px;
+}
+
+.interested-title {
+  font-size: 30px;
+}
+
+.interested-text {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: inherit;
+}
+
+.interested-button {
+  background-color: rgba(117, 97, 87, 1);
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.subsribe {
+  background-image: url("images/index/background-subscribe.jpg");
+  background-color: #ff6347;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 96px 258px 104px 258px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subsribe-form-input {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  text-align: left;
+  font-family: inherit;
+}
+
+.subscribe-form-button {
+  color: #ffffff;
+  background-color: rgba(130, 179, 211, 1);
+  border: none;
+  font-family: inherit;
+}
+
+.footer-contscts-link {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.catalog-filter {
+  padding: 35px 70px 70px 70px;
+  background-image: url("images/catalog/background-catalog.jpg");
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: cover;
+  color:#ffffff;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.page-catalog {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.breadcrumbs-list {
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+}
+
+.catalog-filter-button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: rgb(130, 179, 211);
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+
+.catalog-filter-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: rgb(130, 179, 211, 0);
+  border: none;
+  font-family: inherit;
+}
+
+.search-catalog {
+  padding: 50px 70px 40px 70px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.search-catalog-result {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 0 200px 46px 0;
+}
+
+.search-catalog {
+  margin: 14px 131px 14px 20px;
+  font-size: 18px;
+}
+
+.catalog-sort-list {
+  list-style-type: none;
+}
+
+
+.product-card-list {
+  list-style-type: none;
+}
+
+.product-card-title {
+font-size: 24px;
+line-height: 28px;
+font-weight: 700;
+text-decoration: none;
+color: #000000;
+}
+
+
+
+.product-card-sub {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+.product-card-like {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.product-card-record {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #F2F2F2;
+
+}
+
+.pagination {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.pagination-list {
+  list-style-type: none;
+}
+
+.pagination-link {
+  text-decoration: none;
+background-color: #82B3D3;
+color: #ffffff;
+}
+
+.pagination-link-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.subsribe-catalog {
+    color: #000000;
+    text-align: center;
+}
+
+
+/*font-size: 0px;
+line-height: 0px;
+color: #ffffff;
+font-weight: 400;
+font-family: "PT Sans", sans-serif, "Arial";
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+background-color: after;
+background-repear: no-repeat;
+}*/
+
+/*
+размер шрифта,
+высота строки,
+цвет шрифта,
+насыщенность шрифта,
+гарнитура (название шрифта),
+другие текстовые параметры, если требуется по макету.
+Базовые текстовые параметры, необходимые для всего проекта, укажите на <body>. Остальные указывайте точечно на необходимом элементе.
+
+Описание фоновых параметров (цвет фона, расположение, размер и повторение фонового изображения). У каждого фона должен быть контрастный цвет текста.*/
