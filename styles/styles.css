@@ -88,6 +88,7 @@ body {
   background-color: rgba(117, 97, 87, 1);
   color: #ffffff;
   text-align: center;
+  text-decoration: none;
 }
 
 .intro {
@@ -107,10 +108,9 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  margin: 62px 290px 25px 290px;
 }
 
-.advantages-text {
+.advantages-head-text {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -126,7 +126,7 @@ body {
   color: #ffffff;
   width: 33.33%;
   margin: 0 0 0 0;
-  padding: 92px 85px 11px 85px;
+  padding: 92px 85px 111px 85px;
 }
 
 .advantages-card-title {
@@ -151,7 +151,8 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  /*ты показал как гридом это делать, но я не шарю как это и по ютубу не разобралась, поэтому без всего */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .advantages-item {
@@ -165,7 +166,7 @@ body {
   color: #000000;
 }
 
-.advantages-title {
+.advantages-head-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -205,6 +206,7 @@ body {
   background-color: rgba(117, 97, 87, 1);
   color: #ffffff;
   font-family: inherit;
+  text-decoration: none;
 }
 
 .subsribe {
@@ -243,6 +245,7 @@ body {
   background-color: rgba(130, 179, 211, 1);
   border: none;
   font-family: inherit;
+
 }
 
 .footer-contscts-link {
@@ -299,6 +302,7 @@ body {
   border: none;
   font-family: inherit;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .catalog-filter-reset {
