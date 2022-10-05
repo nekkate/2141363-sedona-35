@@ -1,17 +1,19 @@
 @font-face {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("wof2");
+  font-family: "PT Sans";
+
   font-display: swap;
+  src: url("../fonts/pt-sans-400.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format("wof2");
+  font-family: "PT Sans";
+
   font-display: swap;
+  src: url("../fonts/pt-sans-700.woff2") format("woff2");
 }
 
 *,
@@ -41,7 +43,7 @@ body {
   font-weight: 400;
   color: #000000;
   background-color: #f2f2f2;
-  font-family: "PT Sans", sans-serif, "Arial";
+  font-family: "PT Sans", "Arial", sans-serif;
   width: 100%;
 }
 
@@ -68,7 +70,7 @@ body {
   text-align: center;
 }
 
-.navigation-list-link-сurrent {
+.navigation-list-link-current {
   text-decoration: underline;
   color: #000000;
   text-align: center;
@@ -108,6 +110,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .advantages-head-text {
@@ -209,7 +212,7 @@ body {
   text-decoration: none;
 }
 
-.subsribe {
+.subscribe {
   background-image: url("../images/index/background-subscribe.jpg");
   background-color: #ff6347;
   background-repeat: no-repeat;
@@ -231,7 +234,7 @@ body {
   line-height: 26px;
 }
 
-.subsribe-form-input {
+.subscribe-form-input {
   font-size: 18px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.6);
@@ -401,30 +404,7 @@ body {
   color: #000000;
 }
 
-.subsribe-catalog {
+.subscribe-catalog {
   color: #000000;
   text-align: center;
 }
-
-/*font-size: 0px;
-line-height: 0px;
-color: #ffffff;
-font-weight: 400;
-font-family: "PT Sans", sans-serif, "Arial";
-text-decoration: none;
-text-align: center;
-text-transform: uppercase;
-background-color: after;
-background-repear: no-repeat;
-}*/
-
-/*
-размер шрифта,
-высота строки,
-цвет шрифта,
-насыщенность шрифта,
-гарнитура (название шрифта),
-другие текстовые параметры, если требуется по макету.
-Базовые текстовые параметры, необходимые для всего проекта, укажите на <body>. Остальные указывайте точечно на необходимом элементе.
-
-Описание фоновых параметров (цвет фона, расположение, размер и повторение фонового изображения). У каждого фона должен быть контрастный цвет текста.*/
