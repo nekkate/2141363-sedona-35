@@ -350,11 +350,10 @@ margin: 0 108px 0 108px;
 .page-footer {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
+  padding: 45px 70px 35px 70px;
 }
 
 .footer-social-list {
-  width: 142px;
-  padding: 45px 167px 35px 70px;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -365,10 +364,14 @@ margin: 0 108px 0 108px;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
-  text-align: center;
   display: block;
-  width: 331px;
+  justify-self: center;
 }
+
+.footer-logo-link {
+  justify-self: end;
+}
+
 
 .catalog-filter {
   background-image: url("../images/catalog/background-catalog.jpg");
