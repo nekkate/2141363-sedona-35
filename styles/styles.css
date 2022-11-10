@@ -64,6 +64,11 @@ html {
   color: #ffffff;
 }
 
+.button-blue:hover,
+.button-blue:focus {
+  background-color: #68A2CA;
+}
+
 .button-blue:active {
   color: rgb(255, 255, 255, 0.3);
   background-color: #83b3d3;
