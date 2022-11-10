@@ -144,7 +144,7 @@ body {
 }
 
 .navigation-list-link:hover {
-  opacity: 0,6;
+  opacity: 0.6;
 }
 
 .navigation-list-link-current::before {
