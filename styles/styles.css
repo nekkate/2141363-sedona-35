@@ -143,6 +143,10 @@ body {
   position: relative;
 }
 
+.navigation-list-link:hover {
+  opacity: 0,6;
+}
+
 .navigation-list-link-current::before {
   content: "";
   position: absolute;
@@ -169,7 +173,7 @@ body {
 
 .navigation-user-link:hover,
 .navigation-user-link:focus-visible {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .navigation-user-link:active {
