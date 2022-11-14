@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
     <title>Добро пожаловать в Sedona</title>
   </head>
 
@@ -216,8 +216,8 @@
                <!-- Чтобы показать ошибку добавьте класс is-invalid -->
               <div class="modal-container-search">
                 <p class="modal-search-text">Дата Заезда:</p>
-                <label class="modal-search-label">
-                  <input class="modal-search-input input-arrive" name="arrival-date" type="text"
+                <label class="modal-search-label" required>
+                  <input class="modal-search-input input-arrive" name="arrival-date" type="text" required
                     placeholder="Укажите дату" value="27 апреля 2020">
                 </label>
                 <span class="modal-search-span modal-search-span-error">Мы не можем отправить вас в прошлое.</span>
@@ -225,8 +225,8 @@
               <!-- Чтобы показать ошибку добавьте класс is-valid -->
               <div class="modal-container-search">
                 <p class="modal-search-text">Дата Выезда:</p>
-                <label class="modal-search-label">
-                  <input class="modal-search-input input-departure" name="departure-date" type="text"
+                <label class="modal-search-label" >
+                  <input class="modal-search-input input-departure" name="departure-date" type="text" required
                     placeholder="Укажите дату" value="1 сентября 2023">
                 </label>
                 <span class="modal-search-span modal-search-span-success">На эти даты есть свободные номера. Пока есть.</span>
@@ -238,8 +238,8 @@
                     <button class="modal-toggle-button button-minus" type="button">
                       <span class="visually-hidden">Уменьшить на один</span>
                     </button>
-                    <label class="modal-toggle-label">
-                      <input class="modal-toggle-input" type="number" value="2" name="number-of-adults">
+                    <label class="modal-toggle-label" >
+                      <input class="modal-toggle-input" type="number" value="2" name="number-of-adults" required>
                     </label>
                     <button class="modal-toggle-button button-plus" type="button">
                       <span class="visually-hidden">Увеличить на один</span>
@@ -261,8 +261,8 @@
                     <button class="modal-toggle-button button-minus" type="button">
                       <span class="visually-hidden">Уменьшить на один</span>
                     </button>
-                    <label class="modal-toggle-label">
-                      <input class="modal-toggle-input" type="number" value="2" name="number-of-child">
+                    <label class="modal-toggle-label" >
+                      <input class="modal-toggle-input" type="number" value="2" name="number-of-child" required >
                     </label>
                     <button class="modal-toggle-button button-plus" type="button">
                       <span class="visually-hidden">Увеличить на один</span>

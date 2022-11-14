@@ -123,6 +123,15 @@ body {
   z-index: 1;
 }
 
+.header-logo-current:hover,
+.header-logo-current:focus {
+  opacity: 0.6;
+}
+
+.header-logo-current:active {
+  opacity: 0.3;
+}
+
 .navigation-list {
   list-style-type: none;
   min-width: 470px;
@@ -148,8 +157,14 @@ body {
   position: relative;
 }
 
-.navigation-list-link:hover {
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   opacity: 0.6;
+}
+
+
+.navigation-list-link:active {
+  opacity: 0.3;
 }
 
 .navigation-list-link-current::before {
