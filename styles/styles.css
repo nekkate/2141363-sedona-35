@@ -66,7 +66,7 @@ html {
 
 .button-blue:hover,
 .button-blue:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .button-blue:active {
@@ -111,7 +111,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .header-logo {
   position: absolute;
@@ -161,7 +160,6 @@ body {
 .navigation-list-link:focus {
   opacity: 0.6;
 }
-
 
 .navigation-list-link:active {
   opacity: 0.3;
@@ -477,7 +475,6 @@ body {
 .interested-button:hover,
 .interested-button:focus-visible {
   background-color: rgba(97, 80, 72, 1);
-
 }
 
 .interested-button:active {
@@ -587,7 +584,6 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus-visible {
   color: #68a2ca;
-
 }
 
 .footer-social-link:active {
@@ -606,7 +602,6 @@ body {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus-visible {
   color: rgba(117, 97, 87, 1);
-
 }
 
 .footer-contacts-link:active {
@@ -622,7 +617,6 @@ body {
 .footer-logo-link:hover,
 .footer-logo-link:focus-visible {
   color: #756157;
-
 }
 
 .footer-logo-link:active {
@@ -705,7 +699,6 @@ body {
 
 .breadcrumbs-link:focus-visible {
   color: rgba(255, 255, 255, 1);
-
 }
 
 .breadcrumbs-link:active {
@@ -777,7 +770,6 @@ body {
 
 .catalog-filter-input:focus-visible + .catalog-filter-control-square {
   outline: 2px solid #83b3d3;
-
 }
 
 .catalog-filter-input:focus-visible + .catalog-filter-control-circle {
@@ -844,7 +836,7 @@ body {
 
 .catalog-filter-price-label-input:placeholder-shown {
   color: rgb(0, 0, 0, 0.6);
-  background-color:  #F2F2F2;
+  background-color: #f2f2f2;
   font-weight: 700;
 }
 
@@ -925,11 +917,11 @@ body {
 
 .catalog-filter-price-range-button:hover,
 .catalog-filter-price-range-button:focus {
-  opacity: 0,5;
+  opacity: 0, 5;
 }
 
 .catalog-filter-price-range-button:active {
-  opacity: 0,8;
+  opacity: 0, 8;
 }
 
 .catalog-filter-price-range-button-max {
@@ -1199,7 +1191,6 @@ body {
 .product-card-sub:hover,
 .product-card-sub:focus-visible {
   background-color: rgba(97, 80, 72, 1);
-
 }
 
 .product-card-sub:active {
@@ -1219,7 +1210,6 @@ body {
 .product-card-like-current:hover,
 .product-card-like-current:focus-visible {
   background-color: #6c9e42;
-
 }
 
 .product-card-like-current:active {
@@ -1293,7 +1283,6 @@ body {
   background-color: #f2f2f2;
   color: #000000;
   border: none;
-
 }
 
 .pagination-link-divider {
@@ -1307,7 +1296,6 @@ body {
   background-color: #ffffff;
   color: #000000;
   border: none;
-
 }
 
 .subscribe-catalog {
@@ -1441,7 +1429,6 @@ body {
 .modal-search-input:placeholder-shown {
   color: rgb(0, 0, 0, 0.6);
   background-color: #f2f2f2;
-
 }
 
 .modal-search-input:hover {
