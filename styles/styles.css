@@ -199,7 +199,7 @@ body {
 }
 
 .navigation-user-link-search {
-  background-image: url("/images/svg/search.svg");
+  background-image: url("../images/svg/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
@@ -208,7 +208,7 @@ body {
 }
 
 .navigation-user-link-like {
-  background-image: url("/images/svg/like.svg");
+  background-image: url("../images/svg/like.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
