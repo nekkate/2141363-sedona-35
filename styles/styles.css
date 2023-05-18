@@ -659,7 +659,7 @@ body {
 }
 
 .breadcrumbs-item::before {
-  content: url("/images/svg/arrow-breadcrumbs.svg");
+  content: url("../images/svg/arrow-breadcrumbs.svg");
   position: absolute;
   right: 12px;
   top: 50%;
@@ -671,7 +671,7 @@ body {
 }
 
 .link-home {
-  background-image: url("/images/svg/home-breadcrumbs.svg");
+  background-image: url("../images/svg/home-breadcrumbs.svg");
   width: 12px;
   height: 12px;
   background-repeat: no-repeat;
@@ -1027,7 +1027,7 @@ body {
 }
 
 .search-catalog-option-container::after {
-  content: url("/images/svg/arrow-bottom.svg");
+  content: url("../images/svg/arrow-bottom.svg");
   position: absolute;
   top: 12px;
   right: 20px;
@@ -1082,19 +1082,19 @@ body {
 }
 
 .catalog-sort-button-six {
-  background-image: url("/images/svg/six-img.svg");
+  background-image: url("../images/svg/six-img.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .catalog-sort-button-one {
-  background-image: url("/images/svg/one-img.svg");
+  background-image: url("../images/svg/one-img.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .catalog-sort-button-all {
-  background-image: url("/images/svg/list-img.svg");
+  background-image: url("../images/svg/list-img.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
