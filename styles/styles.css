@@ -274,7 +274,7 @@ body {
 }
 
 .intro::after {
-  content: url("/images/svg/divider-intro.svg");
+  content: url("../images/svg/divider-intro.svg");
   position: absolute;
   bottom: -5px;
 }
